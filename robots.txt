@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://sommiva.com/sitemap.xml
+Sitemap: https://r-winkler.github.io/sommiva-website/sitemap.xml
