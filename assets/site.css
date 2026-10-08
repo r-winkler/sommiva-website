@@ -1,4 +1,5 @@
-/* Sommiva website. Design: design/prototype/WebStart.dc.html, WebDatenschutz.dc.html; docs/design.md, "Website".
+/* Sommiva website. Design: design/prototype/WebStart.dc.html, WebDatenschutz.dc.html, WebHilfe.dc.html;
+   docs/design.md, "Website".
    Colours are the theme "Sonne" of the app. Only logical properties (inline/block), so the layout can mirror for
    right-to-left languages later. Exception: the phone illustration stays left to right like amounts in the app. */
 @font-face{font-family:"Nunito";font-weight:500 900;font-display:swap;src:url(fonts/nunito-latin.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
@@ -190,6 +191,20 @@ h1 span{display:block}
 .doc section.summary{background:var(--card);color:var(--ink);border-radius:28px;padding:28px}
 .doc section.summary h2{font-size:24px}
 .doc section.summary p{font-weight:700}
+
+/* Help page (same frame as the privacy page) */
+.faq .text-link{margin-block-start:20px}
+.doc .lead{margin-block-start:12px;font-size:19px}
+.doc .lead a{color:var(--primary);text-decoration:underline;text-underline-offset:3px}
+.qa-card{background:var(--surface);border-radius:24px;padding-inline:24px;padding-block:4px}
+.qa{padding-block:20px;display:flex;flex-direction:column;gap:8px;scroll-margin-block-start:24px}
+.qa+.qa{border-block-start:1px solid var(--line)}
+.doc .qa h3{font-size:19px;font-weight:800;line-height:1.3}
+.doc .qa p,.doc .qa li{color:var(--muted)}
+.doc section.contact{background:var(--card);color:var(--ink);border-radius:28px;padding:28px;gap:14px;align-items:flex-start}
+.doc section.contact p{font-weight:700;line-height:1.5}
+.doc section.contact :focus-visible{outline-color:var(--ink)}
+.doc section .mail-button{min-block-size:52px;padding-inline:24px;border-radius:26px;background:#1E1B3A;color:#FFFFFF;display:inline-flex;align-items:center;gap:10px;font-size:17px;font-weight:800;text-decoration:none;overflow-wrap:anywhere}
 
 /* 404 */
 .not-found{padding-block:80px 120px}
