@@ -181,7 +181,7 @@ h1 span{display:block}
 .toc h2{padding:0 12px 8px;font-size:13px;font-weight:800;color:var(--muted);letter-spacing:0}
 .toc a{min-block-size:44px;padding-inline:12px;border-radius:22px;display:flex;align-items:center}
 .doc main{flex:999 1 560px;min-inline-size:0;max-inline-size:760px;display:flex;flex-direction:column;gap:36px}
-.doc h1{font-size:clamp(36px,5vw,56px);line-height:1.05}
+.doc h1{font-size:clamp(36px,5vw,56px);line-height:1.05;hyphens:auto;overflow-wrap:break-word}
 .doc .updated{margin-block-start:8px;font-size:15px;font-weight:700;color:var(--muted)}
 .doc section{padding:0;display:flex;flex-direction:column;gap:10px;scroll-margin-block-start:24px}
 .doc section h2{font-size:26px;font-weight:900;letter-spacing:0}
