@@ -54,6 +54,11 @@ svg{flex-shrink:0}
 .lang ul{position:absolute;inset-inline-end:0;inset-block-start:52px;z-index:5;min-inline-size:180px;background:var(--surface);border-radius:20px;padding:8px;box-shadow:0 10px 30px rgba(10,8,24,0.18)}
 .lang li a{display:flex;align-items:center;min-block-size:44px;padding-inline:14px;border-radius:14px;font-weight:700}
 .lang li a[aria-current]{background:var(--soft)}
+/* Many languages: two columns filled top to bottom (--rows from build_website.py, above six entries); on phones
+   the list never gets wider than the screen and scrolls inside itself instead of the page. */
+.lang ul.cols{display:grid;grid-auto-flow:column;grid-template-rows:repeat(var(--rows),auto);grid-template-columns:repeat(2,minmax(0,1fr));column-gap:4px;inline-size:max-content}
+.lang ul{max-inline-size:calc(100vw - 32px);max-block-size:calc(100vh - 96px);overflow-y:auto;overscroll-behavior:contain}
+.lang li a{overflow-wrap:break-word}
 
 /* Buttons and badges */
 .stores{display:flex;flex-wrap:wrap;gap:12px}
