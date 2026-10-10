@@ -5,5 +5,5 @@ do not edit the files here by hand. Design in `design/prototype/WebStart.dc.html
 `WebHilfe.dc.html`, privacy policy from `docs/store/privacy-policy.md`, terms of use from
 `docs/store/terms-of-use.md`, help from `docs/store/faq.md`.
 Fonts: Nunito (`assets/fonts/OFL.txt`), Noto Sans (`OFL-Noto-Sans.txt`), Noto Sans Thai (`OFL-Noto-Sans-Thai.txt`),
-Noto Sans JP, KR, TC and SC (`OFL-Noto-Sans-CJK.txt`), Noto Sans Devanagari (`OFL-Noto-Sans-Devanagari.txt`), all SIL
-Open Font License.
+Noto Sans JP, KR, TC and SC (`OFL-Noto-Sans-CJK.txt`), Noto Sans Devanagari (`OFL-Noto-Sans-Devanagari.txt`), Noto Sans
+Arabic (`OFL-Noto-Sans-Arabic.txt`), Noto Sans Hebrew (`OFL-Noto-Sans-Hebrew.txt`), all SIL Open Font License.
